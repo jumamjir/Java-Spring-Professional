@@ -16,23 +16,11 @@ public class Order {
         return code;
     }
 
-    public void setCode(int code) {
-        this.code = code;
-    }
-
     public double getBasicValue() {
         return basicValue;
     }
 
-    public void setBasicValue(double basicValue) {
-        this.basicValue = basicValue;
-    }
-
     public double getDiscount() {
         return discount;
-    }
-
-    public void setDiscount(double discount) {
-        this.discount = discount;
     }
 }
